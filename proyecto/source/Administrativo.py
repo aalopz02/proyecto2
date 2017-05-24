@@ -20,5 +20,7 @@ class Administrativo(Persona):
     def puesto(self,pues):
         if isinstance(pues,str) and pues != "":
             self.__puesto=pues
+x=Administrativo("Paco",1111,1111,"conta","conserje")
+print(x)
     
     
