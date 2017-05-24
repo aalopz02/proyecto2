@@ -1,0 +1,19 @@
+1. Digitando comandos
+Para utilizar el robot necesita introducir alguno de los comandos anotados en la pestaña 
+de ayuda, 'HELP', sin ningun cambio en la caja de texto y luego presionar aceptar.
+2. Comando de energia
+El comando de energia es para recargar el robot antes de que su energia llegue a 0. Para hacerlo 
+se necesita digitar el comando en la caja de texto y presionar aceptar. Esto creara una ventana
+en la que se tiene que digitar una cantidad a recargar de 0 a 100, tal que la suma de la energia restante
+y la cantidad a digitar, no sobrepase 100. Luego de esto se presiona ok y se procedera con la recarga. 
+Puede cerrar la ventana con el boton 'SALIR' o de la forma tradicional. 
+3. Guardado del estado
+El estado del robot se guardara automaticamente despues de cada opcion que haga un cambio en el robot o la energia.
+4. Comando own1
+El comando restaura los datos originales del robot, la energia, posicion y tamaño.
+5. Comando own2
+El comando hace que el robot salte.
+
+El programa solo funciona si las carpetas estan como se encontraron. Al igual que si se va a modificar el archivo
+de texto que contiene los datos de guardado, debe de guardarse con el mismo formato de espaciado que como se encontro. 
+Caso contrario y el programa dara error y no se ejecutara.
